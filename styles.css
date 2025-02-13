@@ -285,13 +285,110 @@ body {
       display: flex;
       justify-content: space-between;
     }
-  
-    .Contact,
-    .sect4-42,
-    .sect4-43,
-    .icons {
-      flex: 1;
+    .sect4{
+        display: flex;
+        flex-direction: row;
+        gap:100px;
+        background-color: hsl(243, 87%, 12%);
+        color: hsl(240, 75%, 98%);
+        font-size: 15px;
+        justify-content: space-between;
+        padding: 40px;
     }
+    .Contact{
+        display: flex;
+        flex-direction: column;
+        color: hsl(240, 75%, 98%);
+    
+    
+    }
+    .sect4-42{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: flex-end;
+    }
+    .cont{
+        background: none;
+        color: hsl(240, 75%, 98%);
+        border: none;
+        border-radius: 10px;
+    }
+    .sect4-43{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+    }
+    .cont:hover{
+        color: hsl(224, 93%, 58%);
+        cursor: pointer;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+       
+    }
+    .insta{
+        width:32px;
+        height:32px;
+    }
+    .insta:hover{
+        background-color:hsl(238, 22%, 44%);
+        cursor: pointer;
+        border-radius: 50px;
+    }
+    .x:hover{
+        background-color:hsl(238, 22%, 44%);
+        cursor: pointer;
+        border-radius: 50px;
+    }
+    .fb:hover{
+        background-color:hsl(238, 22%, 44%);
+        cursor: pointer;
+        border-radius: 50px;
+    }
+    .x{
+        width:20px;
+        height:20px;
+    }
+    .fb{
+        width:32px;
+        height:32px;
+    }
+    .nbr{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .phn{
+        width: 15px;
+        height: 32px;
+    }
+    .icon-email{
+        width: 15px;
+        height: 32px;
+    }
+    .logo{
+        width:7vw;
+        height: auto;
+    }
+    .Kyle:nth-child(){
+        align-self: center;
+    }
+    .par4{
+        color: hsl(238, 22%, 44%);
+        font-size: 14px; 
+    }
+    
+    
   
     .icons {
       justify-content: flex-start;
